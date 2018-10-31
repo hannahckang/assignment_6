@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Cart</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+</head>
+<body>
+  <!-- This is the title bar-->
+<div class="around line1">
+  <header id="header" class="clear">
+   <div id="headgroup">
+      <a href="index.html"><h1>BUN BUN BAKE<h1></a>
+    </div>
+    <div style="align-self: end; float: right; padding-top: 20px;">
+    <nav>
+      <ul>
+        <li><a href="about.html">about</a></li>
+        <li><a href="browseproducts.html">products</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li><a href="cart.html"><img src="images/whitec.png" height = "20" width = "20" alt=""></a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+</div>
+<!-- This is the content body-->
+<div class="around row2" style="background-color: white; height: 900px;">
+    <h1 style="color: grey; font-size: 50px; padding-left: 50px; padding-top: 30px;"> My Cart </h1>
+    <br> 
+    <img src="images/muffin.png" height="200" width="200" alt="" style="padding-left:100px; padding-top:10px;">
+    <p style="color: grey; font-size: 20px; padding-left: 100px; padding-top: 30px;"> Quantity:  </p>
+
+      <p style="color: grey; font-size: 20px; padding-left: 100px; padding-top: 30px;" id="count"></p>
+
+    <p style="color: grey; font-size: 20px; padding-left: 100px; padding-top: 30px;"> Total Price:  </p>
+
+      <p style="color: grey; font-size: 20px; padding-left: 100px; padding-top: 30px;" id="price"></p>
+
+   <li> <img src="images/checkout.png" alt="Checkout" , height="70" , width="190" style="padding-left:120px; padding-top:100px;" >
+    <img onclick="count(1)" id = "clear" src="images/clear.png" alt="Clear" , height="70" , width="190" style="padding-left:120px; padding-top:100px;"  ></li>
+
+    
+</div>
+    
+
+</div>
+<script  src="main.js"></script>
+
+</body>
+</html>

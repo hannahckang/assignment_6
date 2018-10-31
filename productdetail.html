@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Product Detail Page</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/layout.css" type="text/css">
+  <!-- This is the title bar-->
+</head>
+
+<body>
+  <div id="container">
+    <div class="around line1">
+      <header id="header" class="clear">
+        <div id="headgroup">
+          <a href="index.html">
+            <h1>BUN BUN BAKE<h1>
+          </a>
+        </div>
+        <div style="align-self: end; float: right; padding-top: 20px;">
+          <nav>
+            <ul>
+              <li><a href="about.html">about</a></li>
+              <li><a href="browseproducts.html">products</a></li>
+              <li><a href="contact.html">contact</a></li>
+              <li><a href="cart.html"><img src="images/whitec.png" height="20" width="20" alt=""></a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
+    <!-- The screen is split into two columns -->
+    <div id="content">
+      <div id="columns-container">
+        <!-- This is the column a -->
+        <div class="column column-a">
+          <img src="images_3/menu.png" height="100" , width="290" , padding-left: 90px;><br>
+          <img src="images_3/bm.png" height="80" , width="290" , padding-left: 90px;><br>
+          <img src="images_3/rm.png" height="80" , width="290" , padding-left: 90px;><br>
+          <img src="images_3/om.png" height="80" , width="290" , padding-left: 90px;><br>
+          <img src="images_3/ccm.png" height="80" , width="290" , padding-left: 90px;><br>
+        </div>
+        <!-- This is the column b -->
+        <div class="column column-b">
+          <img src="images_2/bananamuffin.png" height="250" , width="250" , padding-left: 90px;><br>
+          <figure style="float:right;">
+
+
+            <img src="images_3/gf.png" alt="Banana Muffin" , height="40" , width="40" , padding-left: 90px;>
+          </figure><br>
+          <p>Banana Muffin</p>
+          <p>$5</p>
+          <p>Crispy banana with a combination of oats! Wonderful to have for a quick breakfast muffin or a dessert!</p>
+
+          <p style="font-size: 13px">Quantity: 
+            <form>
+              <input type="number" name="quantity"><br>
+            </form>
+          <br>
+          <li><a href="cart.html"><img onclick="count(0)" src="images/addcart.jpg" alt="Add To Cart" , height="70" , width="190" ></a></li>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <script  src="main.js"></script>
+</body>
+
+</html>
